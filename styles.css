@@ -1,0 +1,179 @@
+/* general styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
+}
+/* Header */
+header h1 {
+    text-align: center; /* Maintain centering in header */
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+/* Apply background image to the header */
+ header h1 {
+    background-image:url('images/baloon.png');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Position the image in the center */
+    color:green; /* Make the text white for contrast */
+    padding: 50px; /* Add some padding for the header */
+    text-align: center; /* Center-align the text */
+    font-size: 2.5em; /* Optional: Adjust the font size */
+    font-family: 'Arial', sans-serif; /* Set font family */
+}
+
+
+section {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #a77deb;
+}
+#colors button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(71, 9, 9);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    margin: 5px;
+    border: none;
+}
+.pink { background-color: #FFC0CB; }
+.orange { background-color: #FFA500; }
+.coral { background-color: #FF7F50; }
+.yellow { background-color: #FFFF00; color: black; }
+.green { background-color: #ADFF2F; } 
+
+#colors button:hover {
+    transform: translateY(-3px);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+#colors button:active{
+    transform:translateY(3px);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+
+}
+#fonts h2 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+#fonts .font-group h3 {
+    margin-bottom: 10px;
+}
+
+#fonts .font-group p {
+    margin: 5px 0;
+}
+
+.font-group.arial {
+    font-family: Arial, sans-serif;
+}
+
+
+.font-group.arial p:first-of-type {
+    font-style: normal;
+}
+
+.font-group.arial p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.font-group.arial p:nth-of-type(3) {
+    font-style: italic;
+}
+
+.font-group.arial p:nth-of-type(4) {
+    font-weight: bold;
+    font-style: italic;
+    color:gold;
+}
+/* Colorful text */
+.colorful {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #FFC0CB, #ffa500, #ff7f50, #ffff00, #adff2f);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.font-group.times-new-roman {
+    font-family: 'Times New Roman', serif;
+}
+.font-group.times-new-roman p:first-of-type {
+    font-style: normal;
+}
+
+.font-group.times-new-roman p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.font-group.times-new-roman p:nth-of-type(3) {
+    font-style: italic;
+}
+
+.font-group.courier {
+    font-family: Courier, monospace;
+}
+.font-group.courier p:first-of-type {
+    font-style: normal;
+}
+
+.font-group.courier p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.font-group.courier p:nth-of-type(3) {
+    font-style: italic;
+}
+
+
+
+
+
+
+/* text-styles */
+#text-styles h1 {
+    text-align: left; /* Align left */
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#text-styles h1, #text-styles h2, #text-styles p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+#text-styles h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#text-styles h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#text-styles p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-styles ul {
+    margin-left: 20px;
+}
+
+.text-styles li {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
